@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background-image: url("contact.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+header{
+    text-align: center;
+     float: all;
+     font-family: 'Permanent Marker', cursive;
+     font-size: 23px;
+     color: lightgrey;
+}
+article{
+ display: flex;
+}
+.topnavigationbar{
+	overflow: hidden;
+	background-color: white;
+	text-align: center;
+	text-shadow: 5%;
+	letter-spacing: 10%;
+	opacity: 0.2;
+	display: block;
+}
+.topnavigationbar a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	transition: 0.9s;
+	padding: 1%;
+	opacity: 50%;
+}
+.topnavigationbar a:hover {
+	background-color: lightblue;
+	color: black;
+	font-weight: 1000;
+}
+iframe{
+	width: 95%;
+	margin: 1%;
+	padding: 3%;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+    footer img{
+	width: 50px;
+	height: 50px;
+	border-radius: 25%;
+	margin: 1%
+}

@@ -1,0 +1,83 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);
+}
+header{
+    text-align: center;
+     float: all;
+     font-family: 'Permanent Marker', cursive;
+     font-size: 23px;
+     color: lightgrey;
+}
+.topnavigationbar{
+	overflow: hidden;
+	background-color: white;
+	text-align: center;
+	text-shadow: 5%;
+	letter-spacing: 10%;
+	opacity: 0.2;
+	display: block;
+}
+.topnavigationbar a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	transition: 0.9s;
+	padding: 1%;
+	opacity: 50%;
+}
+.topnavigationbar a:hover {
+	background-color: lightblue;
+	color: black;
+	font-weight: 1000;
+}
+img{
+	width: 50px;
+	height: 50px;
+	border-radius: 25%;
+	margin: 1%;
+}
+article{
+	display: flex;
+	justify-content: space-around;
+	margin:5px;
+}
+article img{
+	width: 300px;
+	height: 300px;
+	border-radius: 0;
+}
+section{
+	display: flex;
+	justify-content: flex-start;
+}
+div h1{
+	margin: 2%;
+	font-size: 40px;
+	color: white;
+}
+.first{
+	color: white;
+	width: 20%;
+	padding:3px;
+	font-size: 25px;
+	align-items: left;
+	margin-left: 20px;
+	box-shadow: 5px 10px grey;
+
+}
+.second{
+	color: white;
+	padding:3px;
+	font-size: 25px;
+	align-items: left;
+	margin-left: 10px;
+	box-shadow: 5px 10px grey;
+}

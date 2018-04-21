@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background-color: lightblue;
+	background-image: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);
+}
+header{
+    text-align: center;
+     float: all;
+     font-family: 'Permanent Marker', cursive;
+     font-size: 23px;
+     color: lightgrey;
+}
+.topnavigationbar{
+	overflow: hidden;
+	text-align: center;
+	text-shadow: 5%;
+	letter-spacing: 10%;
+	display: block;
+}
+.topnavigationbar a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	transition: 0.9s;
+	padding: 1%;
+	opacity: 0.3;
+
+}
+.topnavigationbar a:hover {
+	background-color: lightblue;
+	color: black;
+	font-weight: 1000;
+
+}
+
+.Column.Middle{
+	height: 100%;
+width: 100%;
+font-size: 70px;
+background: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);
+background-size: cover;
+color: black;
+text-align: center;
+margin-top: 12%;
+padding: 40px 50px;
+background-color: #454545;
+}
+.big-text{
+	font-size: 150px;
+	font-weight: 800;
+	font-color: white;
+}
+.column.middle a{
+	display: inline-block;
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 35px;
+	padding: 15px;
+	transition: .3s;
+	text-decoration: none;
+	text-decoration-color: white;
+}
+.column.middle a:hover {
+background: black;
+color: white;
+}
+
+.Side.Content{
+	float: left
+}
+.Row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+img{
+	width: 50px;
+	height: 50px;
+	border-radius: 25%;
+	margin: 1%;
+}
+a{
+	text-decoration-line: none;
+	color: black;
+}
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+   
