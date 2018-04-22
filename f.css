@@ -4,7 +4,7 @@
 body{/*body created*/
 	margin: 0;/*margin made*/
 	background-color: white;/*back page color*/
-	background-image: url(maa.jpg);/*back page image*/
+	/*back page image*/
 	background-size: cover;/*size of image*/
 
 }
@@ -40,13 +40,6 @@ header{/*header is operated*/
 	background-color: lightblue;/*back color page*/
 	color: black;/*words color*/
 	font-weight: 1000;/*words weightage*/
-}
-.information{/*class created*/
-	text-align: center;/*text in centre*/
-	text-decoration: none;/*no any decoration*/
-	font-size: 25px;/*letter size*/
-	font-weight: 1000;/*words weightage*/
-	margin-top: 20%;/*margin made from top*/
 }
 footer img{/*image in foot of page id created*/
 	width: 50px;/*image width*/

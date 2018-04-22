@@ -1,84 +1,84 @@
 *{
-	box-sizing: border-box;
+	box-sizing: border-box;/*box size created*/
 }
-body{
-	margin: 0;
-	background-image: url("contact.jpg");
-	background-size: cover;
-	background-position: center;
-}
-
-
-header{
-    text-align: center;
-     float: all;
-     font-family: 'Permanent Marker', cursive;
-     font-size: 23px;
-     color: lightgrey;
-}
-article{
- display: flex;
-}
-.topnavigationbar{
-	overflow: hidden;
-	background-color: white;
-	text-align: center;
-	text-shadow: 5%;
-	letter-spacing: 10%;
-	opacity: 0.2;
-	display: block;
-}
-.topnavigationbar a{
-	float: left;
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 25px;
-	transition: 0.9s;
-	padding: 1%;
-	opacity: 50%;
-}
-.topnavigationbar a:hover {
-	background-color: lightblue;
-	color: black;
-	font-weight: 1000;
-}
-iframe{
-	width: 95%;
-	margin: 1%;
-	padding: 3%;
+body{/*body portion created*/
+	margin: 0;/*pagemargin*/
+	background-image: url("contact.jpg");/*image in backside is created*/
+	background-size: cover;/*size background*/
+	background-position: center;/*position background*/
 }
 
-input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+
+header{/*header is made*/
+    text-align: center;/*words in between*/
+     float: all;/*float inserted*/
+     font-family: 'Permanent Marker', cursive;/*words style*/
+     font-size: 23px;/*size of words*/
+     color: lightgrey;/*words color*/
+}
+article{/*article inserted*/
+ display: flex;/*flex is operated*/
+}
+.topnavigationbar{/* navigation bar is made*/
+	overflow: hidden;/*hidden made*/
+	background-color: white;/*back page color transferred */
+	text-align: center;/*words in centre*/
+	text-shadow: 5%;/*shadow created*/
+	letter-spacing: 10%;/*letter gaps*/
+	opacity: 0.2;/*made more opaque*/
+	display: block;/*words changed to block*/
+}
+.topnavigationbar a{/*navigation bar operated*/
+	float: left;/*float created to left*/
+	display: block;/*words transfer to block*/
+	color: black;/*letter color change to black*/
+	text-align: center;/*words in centre of page*/
+	padding: 14px 16px;/*padding is oprated*/
+	text-decoration: none;/*decoration is made*/
+	font-size: 25px;/*letter size*/
+	transition: 0.9s;/*transition is made*/
+	padding: 1%;/*made padding*/
+	opacity: 50%;/*opaque created*/
+}
+.topnavigationbar a:hover {/*hover made */
+	background-color: lightblue;/*back page color*/
+	color: black;/*words color*/
+	font-weight: 1000;/*words weightage*/
+}
+iframe{/*map added*/
+	width: 95%;/*screen width*/
+	margin: 1%;/*gap around page*/
+	padding: 3%;/*padding created*/
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
+input[type=submit] {/*input created*/
+    width: 100%;/*button width*/
+    background-color: #4CAF50;/*change back page color*/
+    color: white;/*words color*/
+    padding: 14px 20px;/*padding created*/
+    margin: 8px 0;/*gaps between page*/
+    border: none;/*border not made*/
+    border-radius: 4px;/*corner radius*/
+    cursor: pointer;/*pointer sign changed whenevr point*/
 }
 
-div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+input[type=submit]:hover {/*hover on input*/
+    background-color: #45a049;/*back color of page change*/
+}
+
+div {/*class created*/
+    border-radius: 5px;/*corner made*/
+    background-color: #f2f2f2;/*back colorof page change*/
+    padding: 20px;/*padding created*/
     }
-    footer img{
-	width: 50px;
-	height: 50px;
-	border-radius: 25%;
-	margin: 1%
+    footer img{/*image in footer portion added*/
+	width: 50px;/*image width added*/
+	height: 50px;/*image height*/
+	border-radius: 25%;/*corner radius*/
+	margin: 1%;/*gap is created*/
 }
-@media screen and (max-width: 600px) {
-    .column.side, .column.middle {
-        width: 100%;
+@media screen and (max-width: 600px) {/*made responsive*/
+    .column.side, .column.middle {/*for side and middle column*/
+        width: 100%;/*screen width*/
     }
    

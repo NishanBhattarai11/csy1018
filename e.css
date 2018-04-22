@@ -1,66 +1,66 @@
-*{
-	box-sizing: border-box;
+*{/*box size maintain*/
+	box-sizing: border-box;/*size of box*/
 }
-body{
-	margin: 0;
-	background-color: white;
-	
+body{/*body portion created*/
+	margin: 0;/*margin maintain*/
+	background-color: white;/*back page color*/
+	background-image: url(th.jpg);/*back image added*/
+	background-size: cover;/*size cover added*/
+}
+article  h1{/*article headind added*/
+text-align: center;/*words in centre of page*/
+font-size: 75px;/*letter size*/
 
 }
-article  h1{
-text-align: center;
-font-size: 75px;
-
+article img{/*image in article created*/
+	margin-left: 20%;/*gap at left side*/
 }
-article img{
-	margin-left: 20%;
+article{/*artice  portion created*/
+	margin-top: 5%;/*margin at top side*/
 }
-article{
-	margin-top: 5%;
+header{/*header added*/
+    text-align: center;/*words incentre*/
+     float: all;/*float made*/
+     font-family: 'Permanent Marker', cursive;/*letter style*/
+     font-size: 23px;/*letter size*/
+     color: lightgrey;/*letter color*/
 }
-header{
-    text-align: center;
-     float: all;
-     font-family: 'Permanent Marker', cursive;
-     font-size: 23px;
-     color: lightgrey;
+.topnavigationbar{/*class bar created*/
+	overflow: hidden;/*overflow created to hidden*/
+	background-color: white;/*back page color*/
+	text-align: center;/*words inbetween page*/
+	text-shadow: 5%;/*shadow is made*/
+	letter-spacing: 10%;/*gaps between letter*/
+	opacity: 0.2;/*made opaque*/
+	display: block;/*letter transform*/
 }
-.topnavigationbar{
-	overflow: hidden;
-	background-color: white;
-	text-align: center;
-	text-shadow: 5%;
-	letter-spacing: 10%;
-	opacity: 0.2;
-	display: block;
+.topnavigationbar a{/*link created to bar*/
+	float: left;/*float added*/
+	display: block;/*letter transform*/
+	color: black;/*letter decoration color*/
+	text-align: center;/*words in between page*/
+	padding: 14px 16px;/*padding created*/
+	text-decoration: none;/*text decoration made*/
+	font-size: 25px;/*letter size changed*/
+	transition: 0.9s;/*transition created*/
+	padding: 1%;/*padding made*/
+	opacity: 50%;/*opaque is made*/
 }
-.topnavigationbar a{
-	float: left;
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 25px;
-	transition: 0.9s;
-	padding: 1%;
-	opacity: 50%;
+.topnavigationbar a:hover {/*hover made on bar*/
+	background-color: lightblue;/*back color page change*/
+	color: black;/*words color change*/
+	font-weight: 1000;/*words weightage*/
 }
-.topnavigationbar a:hover {
-	background-color: lightblue;
-	color: black;
-	font-weight: 1000;
+footer img{/*image at footer portion*/
+	width: 50px;/*image width*/
+	height: 50px;/*image height*/
+	border-radius: 25%;/*image corner radius made*/
+	margin: 1%;/*gap created*/
 }
-footer img{
-	width: 50px;
-	height: 50px;
-	border-radius: 25%;
-	margin: 1%;
+footer{/*footer is created*/
+	align-items: left;/*items shift at left side */
 }
-footer{
-	align-items: left;
-}
-@media screen and (max-width: 600px) {
-    .column.side, .column.middle {
-        width: 100%;
+@media screen and (max-width: 600px) {/*make responsive*/
+    .column.side, .column.middle {/*for side and middle column*/
+        width: 100%;/*width for screeen*/
     }
